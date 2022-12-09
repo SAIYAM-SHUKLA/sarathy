@@ -6,13 +6,40 @@
 
 .heading-one{
     position: relative;
-    left: 25%;
-    font-size: 510%;
-    font-family: initial;
-    color: burlywood;
-    font-family: 'PT Serif', serif;
-font-family: 'Updock', cursive;
+  left: 0%;
+  font-size: 510%;
+  font-family: initial;
+  color: burlywood;
+  font-family: 'PT Serif', serif;
+  font-family: 'Updock', cursive;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  display: flex;
+  text-align: center;
 }
 .linking{
     display: flex;
+    padding: 0%;
+    justify-items: right;
+    justify-content: space-around;
+  
+}
+.second-part{
+    background-image: url("background.jpg");
+}
+.second-part h2{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    font-family: 'Updock', cursive;
+  
+}
+.head-2{
+    display: flex;
+    justify-content: center;
+    font-family: initial;
+    font-family: 'Updock', cursive;
+    font-size: 443%;
+    text-align: center;
 }
