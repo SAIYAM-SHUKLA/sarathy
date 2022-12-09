@@ -1,0 +1,18 @@
+@font-face {
+    font-family: samarkan;
+    src: url(font/SAMAN__.TTF);
+}
+
+
+.heading-one{
+    position: relative;
+    left: 25%;
+    font-size: 510%;
+    font-family: initial;
+    color: burlywood;
+    font-family: 'PT Serif', serif;
+font-family: 'Updock', cursive;
+}
+.linking{
+    display: flex;
+}

@@ -13,7 +13,8 @@ app.set("view engen","ejs")
 app.set("views",path.join(__dirname,"/views"))
 
 
-app.use(express.static(path.join(__dirname,"./public/upload/")))
+// app.use(express.static(path.join(__dirname,"./public/upload/")))
+app.use('/static', express.static(path.join(__dirname, 'public')))
 //connect to mongoose
 // getting-started.js
 // const mongoose = require('mongoose');
@@ -32,4 +33,7 @@ app.get("/",(req,res)=>{
 })
 app.get("/hello",(req,res)=>{
   res.render("one.ejs")
+})
+app.get("/hotels",(req,res)=>{
+  res.render("hotels.ejs")
 })
