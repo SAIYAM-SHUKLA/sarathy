@@ -31,9 +31,34 @@ app.get("/",(req,res)=>{
     res.render("first.ejs")
 
 })
-app.get("/hello",(req,res)=>{
-  res.render("one.ejs")
-})
+
 app.get("/hotels",(req,res)=>{
   res.render("hotels.ejs")
 })
+
+app.get("/garden",(req,res)=>{
+  res.render("garden.ejs")
+})
+
+app.get("/hospitals",(req,res)=>{
+  res.render("hospitals.ejs")
+})
+
+app.get("/rstrnt",(req,res)=>{
+  res.render("rstrnt.ejs")
+})
+
+app.get("/shopping",(req,res)=>{
+  res.render("shopping.ejs")
+})
+
+app.get("/events",(req,res)=>{
+  res.render("events.ejs")
+})
+
+app.get("/touristd",(req,res)=>{
+  res.render("touristd.ejs")
+})
+
+
+
