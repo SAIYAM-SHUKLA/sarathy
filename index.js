@@ -19,13 +19,13 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 // getting-started.js
 // const mongoose = require('mongoose');
 
-main().catch(err => console.log(err));
+// main().catch(err => console.log(err));
 
-async function main() {
-  await mongoose.connect('mongodb://localhost:27017/test');
+// async function main() {
+//   await mongoose.connect('mongodb://localhost:27017/test');
   
-  // use `await mongoose.connect('mongodb://user:password@localhost:27017/test');` if your database has auth enabled
-}
+//   // use `await mongoose.connect('mongodb://user:password@localhost:27017/test');` if your database has auth enabled
+// }
 // routs 
 app.get("/",(req,res)=>{
     res.render("first.ejs")
