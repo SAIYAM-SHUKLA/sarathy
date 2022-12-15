@@ -7,7 +7,7 @@
 .heading-one{
     position: relative;
   left: 0%;
-  font-size: 510%;
+  font-size: 450%;
   font-family: initial;
   color: burlywood;
   font-family: 'PT Serif', serif;
@@ -17,6 +17,7 @@
   justify-items: center;
   display: flex;
   text-align: center;
+  font-family: unbounded;
 }
 .linking{
     display: flex;
@@ -40,8 +41,9 @@
     justify-content: center;
     font-family: initial;
     font-family: 'Updock', cursive;
-    font-size: 443%;
+    font-size: 350%;
     text-align: center;
+    font-family: unbounded;
 }
 .linking a{
     text-decoration: none;
@@ -53,6 +55,46 @@
 .logo
 {
     width: 2%;
+}
+.img{
+    width: 15%;
+    width: 37px;
+
+}
+.hotel-card{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      
+}
+.hotel-card-rr{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+      
+}
+.card-img-top2{
+    width: 27%;
+}
+.mrgn{
+margin-right: 2%;
+}
+.size{
+    width :11%;
+}
+.btns{
+    display: flex;
+justify-content: space-around;
+}
+.alerts{
+    background-color: rgba(10, 10, 10, 0.1);
+    /* width: 80%; */
+}
+.bal{
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 1098px) {
@@ -72,7 +114,26 @@
     .logo{
         width: 6%;
     }
-
+    .hotel-card{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+}
+.hotel-card-rr{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+}
+.card-img-top2{
+    width: 100%;
+}
+.bal{
+    flex-direction: column;
+}
 
 
 }

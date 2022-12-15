@@ -28,7 +28,7 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 // }
 // routs 
 app.get("/",(req,res)=>{
-    res.render("first.ejs")
+    res.render("pre.ejs")
 
 })
 
@@ -58,6 +58,15 @@ app.get("/events",(req,res)=>{
 
 app.get("/touristd",(req,res)=>{
   res.render("touristd.ejs")
+})
+app.get("/notf",(req,res)=>{
+  res.render("notification.ejs")
+})
+app.get("/first",(req,res)=>{
+  res.render("first.ejs")
+})
+app.get("/be-dtl",(req,res)=>{
+  res.render("detail1.ejs")
 })
 
 
